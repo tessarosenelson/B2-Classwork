@@ -1,0 +1,35 @@
+.container, .container-fluid {
+  border: solid 1px black;
+  margin-bottom: 20px;
+  background: #E87EB0;
+}
+[class^="col-"]{
+  border: solid 1px blue;
+}
+.my-shared-class{
+  padding-top:20px;
+  padding-bottom: 20px;
+  background: purple;
+}
+/* Bootstrap sm size */
+@media screen and (min-width: 768px){
+
+}
+/* Bootstrap md size */
+@media screen and (min-width: 992px){
+
+}
+/* Bootstrap lg size */
+@media screen and (mid-width: 1200px){
+
+}
+
+.my-class-1{
+ background: red;
+}
+.my-class-2{
+  background: orange;
+}
+.myclass-3{
+  background: yellow;
+}
